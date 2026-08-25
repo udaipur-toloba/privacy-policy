@@ -1,505 +1,749 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Udaipur Toloba</title>
-<meta name="description" content="Privacy policy for the Udaipur Toloba membership dues app.">
-<style>
-  :root {
-    --bg: #F6F4EE;
-    --paper: #FFFFFF;
-    --ink: #1C2620;
-    --muted: #5B6A61;
-    --faint: #8B978F;
-    --accent: #1F6F4E;
-    --accent-ink: #14432F;
-    --line: #DEDACD;
-    --line-strong: #C8C2AE;
-    --font-display: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
-  }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Privacy Policy — Udaipur Toloba</title>
+		<meta
+			name="description"
+			content="Privacy policy for the Udaipur Toloba membership dues app." />
+		<style>
+			:root {
+				--bg: #f6f4ee;
+				--paper: #ffffff;
+				--ink: #1c2620;
+				--muted: #5b6a61;
+				--faint: #8b978f;
+				--accent: #1f6f4e;
+				--accent-ink: #14432f;
+				--line: #dedacd;
+				--line-strong: #c8c2ae;
+				--font-display:
+					ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype",
+					"Book Antiqua", serif;
+				--font-body:
+					-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+					Helvetica, Arial, sans-serif;
+				--font-mono:
+					ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas,
+					monospace;
+			}
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0F1A14;
-      --paper: #142019;
-      --ink: #E9EDE8;
-      --muted: #9AAAA0;
-      --faint: #647166;
-      --accent: #4FAF84;
-      --accent-ink: #BFE8D4;
-      --line: #24352C;
-      --line-strong: #33473C;
-    }
-  }
-  html[data-theme="dark"] {
-    --bg: #0F1A14;
-    --paper: #142019;
-    --ink: #E9EDE8;
-    --muted: #9AAAA0;
-    --faint: #647166;
-    --accent: #4FAF84;
-    --accent-ink: #BFE8D4;
-    --line: #24352C;
-    --line-strong: #33473C;
-  }
-  html[data-theme="light"] {
-    --bg: #F6F4EE;
-    --paper: #FFFFFF;
-    --ink: #1C2620;
-    --muted: #5B6A61;
-    --faint: #8B978F;
-    --accent: #1F6F4E;
-    --accent-ink: #14432F;
-    --line: #DEDACD;
-    --line-strong: #C8C2AE;
-  }
+			@media (prefers-color-scheme: dark) {
+				:root {
+					--bg: #0f1a14;
+					--paper: #142019;
+					--ink: #e9ede8;
+					--muted: #9aaaa0;
+					--faint: #647166;
+					--accent: #4faf84;
+					--accent-ink: #bfe8d4;
+					--line: #24352c;
+					--line-strong: #33473c;
+				}
+			}
+			html[data-theme="dark"] {
+				--bg: #0f1a14;
+				--paper: #142019;
+				--ink: #e9ede8;
+				--muted: #9aaaa0;
+				--faint: #647166;
+				--accent: #4faf84;
+				--accent-ink: #bfe8d4;
+				--line: #24352c;
+				--line-strong: #33473c;
+			}
+			html[data-theme="light"] {
+				--bg: #f6f4ee;
+				--paper: #ffffff;
+				--ink: #1c2620;
+				--muted: #5b6a61;
+				--faint: #8b978f;
+				--accent: #1f6f4e;
+				--accent-ink: #14432f;
+				--line: #dedacd;
+				--line-strong: #c8c2ae;
+			}
 
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
+			* {
+				box-sizing: border-box;
+			}
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+			}
 
-  body {
-    background: var(--bg);
-    color: var(--ink);
-    font-family: var(--font-body);
-    line-height: 1.7;
-  }
+			body {
+				background: var(--bg);
+				color: var(--ink);
+				font-family: var(--font-body);
+				line-height: 1.7;
+			}
 
-  .wrap {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem 5rem;
-  }
+			.wrap {
+				max-width: 700px;
+				margin: 0 auto;
+				padding: 3rem 1.5rem 5rem;
+			}
 
-  .theme-toggle {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 0.4rem 0.7rem;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--muted);
-    cursor: pointer;
-  }
+			.theme-toggle {
+				position: absolute;
+				top: 1.5rem;
+				right: 1.5rem;
+				background: var(--paper);
+				border: 1px solid var(--line);
+				border-radius: 8px;
+				padding: 0.4rem 0.7rem;
+				font-family: var(--font-mono);
+				font-size: 12px;
+				color: var(--muted);
+				cursor: pointer;
+			}
 
-  .theme-toggle:hover { color: var(--accent); border-color: var(--line-strong); }
+			.theme-toggle:hover {
+				color: var(--accent);
+				border-color: var(--line-strong);
+			}
 
-  header.doc-head {
-    padding-bottom: 2rem;
-    margin-bottom: 2.5rem;
-    border-bottom: 1px solid var(--line);
-  }
+			header.doc-head {
+				padding-bottom: 2rem;
+				margin-bottom: 2.5rem;
+				border-bottom: 1px solid var(--line);
+			}
 
-  .eyebrow {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin: 0 0 0.9rem;
-  }
+			.eyebrow {
+				font-family: var(--font-mono);
+				font-size: 12px;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: var(--accent);
+				margin: 0 0 0.9rem;
+			}
 
-  h1 {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
-    margin: 0 0 0.6rem;
-    text-wrap: balance;
-    color: var(--ink);
-  }
+			h1 {
+				font-family: var(--font-display);
+				font-weight: 500;
+				font-size: 34px;
+				line-height: 1.15;
+				letter-spacing: -0.01em;
+				margin: 0 0 0.6rem;
+				text-wrap: balance;
+				color: var(--ink);
+			}
 
-  .subtitle {
-    font-size: 16px;
-    color: var(--muted);
-    margin: 0 0 1.1rem;
-    max-width: 46ch;
-  }
+			.subtitle {
+				font-size: 16px;
+				color: var(--muted);
+				margin: 0 0 1.1rem;
+				max-width: 46ch;
+			}
 
-  .meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 1.4rem;
-    font-family: var(--font-mono);
-    font-size: 12.5px;
-    color: var(--faint);
-  }
+			.meta-row {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.4rem 1.4rem;
+				font-family: var(--font-mono);
+				font-size: 12.5px;
+				color: var(--faint);
+			}
 
-  .meta-row span b {
-    color: var(--muted);
-    font-weight: 400;
-  }
+			.meta-row span b {
+				color: var(--muted);
+				font-weight: 400;
+			}
 
-  nav.toc {
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 1.1rem 1.3rem;
-    margin-bottom: 2.75rem;
-  }
+			nav.toc {
+				background: var(--paper);
+				border: 1px solid var(--line);
+				border-radius: 10px;
+				padding: 1.1rem 1.3rem;
+				margin-bottom: 2.75rem;
+			}
 
-  nav.toc .toc-label {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--faint);
-    margin: 0 0 0.7rem;
-  }
+			nav.toc .toc-label {
+				font-family: var(--font-mono);
+				font-size: 11px;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: var(--faint);
+				margin: 0 0 0.7rem;
+			}
 
-  nav.toc ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    columns: 2;
-    column-gap: 1.5rem;
-  }
+			nav.toc ol {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				columns: 2;
+				column-gap: 1.5rem;
+			}
 
-  nav.toc li {
-    break-inside: avoid;
-    margin-bottom: 0.45rem;
-    font-size: 13.5px;
-  }
+			nav.toc li {
+				break-inside: avoid;
+				margin-bottom: 0.45rem;
+				font-size: 13.5px;
+			}
 
-  nav.toc a {
-    color: var(--muted);
-    text-decoration: none;
-    display: flex;
-    gap: 0.5em;
-  }
+			nav.toc a {
+				color: var(--muted);
+				text-decoration: none;
+				display: flex;
+				gap: 0.5em;
+			}
 
-  nav.toc a:hover, nav.toc a:focus-visible {
-    color: var(--accent);
-  }
+			nav.toc a:hover,
+			nav.toc a:focus-visible {
+				color: var(--accent);
+			}
 
-  nav.toc a .n {
-    font-family: var(--font-mono);
-    color: var(--faint);
-    min-width: 1.4em;
-  }
+			nav.toc a .n {
+				font-family: var(--font-mono);
+				color: var(--faint);
+				min-width: 1.4em;
+			}
 
-  section.clause {
-    padding-top: 2.4rem;
-    margin-top: 2.4rem;
-    border-top: 1px solid var(--line);
-    scroll-margin-top: 1.5rem;
-  }
+			section.clause {
+				padding-top: 2.4rem;
+				margin-top: 2.4rem;
+				border-top: 1px solid var(--line);
+				scroll-margin-top: 1.5rem;
+			}
 
-  section.clause:first-of-type {
-    border-top: none;
-    padding-top: 0;
-    margin-top: 0;
-  }
+			section.clause:first-of-type {
+				border-top: none;
+				padding-top: 0;
+				margin-top: 0;
+			}
 
-  .clause-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.85rem;
-    margin: 0 0 0.9rem;
-  }
+			.clause-head {
+				display: flex;
+				align-items: baseline;
+				gap: 0.85rem;
+				margin: 0 0 0.9rem;
+			}
 
-  .clause-num {
-    font-family: var(--font-mono);
-    font-size: 14px;
-    color: var(--accent);
-    flex-shrink: 0;
-  }
+			.clause-num {
+				font-family: var(--font-mono);
+				font-size: 14px;
+				color: var(--accent);
+				flex-shrink: 0;
+			}
 
-  h2 {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 21px;
-    margin: 0;
-    letter-spacing: -0.005em;
-    text-wrap: balance;
-  }
+			h2 {
+				font-family: var(--font-display);
+				font-weight: 500;
+				font-size: 21px;
+				margin: 0;
+				letter-spacing: -0.005em;
+				text-wrap: balance;
+			}
 
-  .clause p {
-    margin: 0 0 0.95rem;
-    font-size: 15.5px;
-    color: var(--ink);
-    max-width: 62ch;
-  }
+			.clause p {
+				margin: 0 0 0.95rem;
+				font-size: 15.5px;
+				color: var(--ink);
+				max-width: 62ch;
+			}
 
-  .clause p.lead {
-    color: var(--muted);
-  }
+			.clause p.lead {
+				color: var(--muted);
+			}
 
-  .clause ul {
-    margin: 0 0 0.95rem;
-    padding-left: 1.3rem;
-  }
+			.clause ul {
+				margin: 0 0 0.95rem;
+				padding-left: 1.3rem;
+			}
 
-  .clause li {
-    margin-bottom: 0.5rem;
-    font-size: 15.5px;
-    max-width: 60ch;
-  }
+			.clause li {
+				margin-bottom: 0.5rem;
+				font-size: 15.5px;
+				max-width: 60ch;
+			}
 
-  .clause li b, .clause p b {
-    font-weight: 600;
-    color: var(--ink);
-  }
+			.clause li b,
+			.clause p b {
+				font-weight: 600;
+				color: var(--ink);
+			}
 
-  .card-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 0.9rem;
-    margin: 1.1rem 0 1.3rem;
-  }
+			.card-row {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+				gap: 0.9rem;
+				margin: 1.1rem 0 1.3rem;
+			}
 
-  .data-card {
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 0.9rem 1rem;
-  }
+			.data-card {
+				background: var(--paper);
+				border: 1px solid var(--line);
+				border-radius: 10px;
+				padding: 0.9rem 1rem;
+			}
 
-  .data-card .label {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin: 0 0 0.35rem;
-  }
+			.data-card .label {
+				font-family: var(--font-mono);
+				font-size: 11px;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+				color: var(--accent);
+				margin: 0 0 0.35rem;
+			}
 
-  .data-card .desc {
-    font-size: 13.5px;
-    color: var(--muted);
-    margin: 0;
-    line-height: 1.55;
-  }
+			.data-card .desc {
+				font-size: 13.5px;
+				color: var(--muted);
+				margin: 0;
+				line-height: 1.55;
+			}
 
-  table.processors {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.1rem 0 1.3rem;
-    font-size: 14px;
-  }
+			table.processors {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1.1rem 0 1.3rem;
+				font-size: 14px;
+			}
 
-  table.processors th {
-    text-align: left;
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--faint);
-    font-weight: 400;
-    padding: 0 0.9rem 0.6rem 0;
-    border-bottom: 1px solid var(--line-strong);
-  }
+			table.processors th {
+				text-align: left;
+				font-family: var(--font-mono);
+				font-size: 11px;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+				color: var(--faint);
+				font-weight: 400;
+				padding: 0 0.9rem 0.6rem 0;
+				border-bottom: 1px solid var(--line-strong);
+			}
 
-  table.processors td {
-    padding: 0.75rem 0.9rem 0.75rem 0;
-    border-bottom: 1px solid var(--line);
-    color: var(--muted);
-    vertical-align: top;
-  }
+			table.processors td {
+				padding: 0.75rem 0.9rem 0.75rem 0;
+				border-bottom: 1px solid var(--line);
+				color: var(--muted);
+				vertical-align: top;
+			}
 
-  table.processors td.who {
-    color: var(--ink);
-    font-weight: 500;
-    white-space: nowrap;
-  }
+			table.processors td.who {
+				color: var(--ink);
+				font-weight: 500;
+				white-space: nowrap;
+			}
 
-  .table-scroll {
-    overflow-x: auto;
-  }
+			.table-scroll {
+				overflow-x: auto;
+			}
 
-  .callout {
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-left: 3px solid var(--accent);
-    border-radius: 0 10px 10px 0;
-    padding: 0.95rem 1.15rem;
-    margin: 1.1rem 0 1.3rem;
-    font-size: 14.5px;
-    color: var(--muted);
-  }
+			.callout {
+				background: var(--paper);
+				border: 1px solid var(--line);
+				border-left: 3px solid var(--accent);
+				border-radius: 0 10px 10px 0;
+				padding: 0.95rem 1.15rem;
+				margin: 1.1rem 0 1.3rem;
+				font-size: 14.5px;
+				color: var(--muted);
+			}
 
-  .callout b {
-    color: var(--ink);
-    font-weight: 600;
-  }
+			.callout b {
+				color: var(--ink);
+				font-weight: 600;
+			}
 
-  footer.doc-foot {
-    margin-top: 3rem;
-    padding-top: 1.8rem;
-    border-top: 1px solid var(--line);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
-    font-size: 13.5px;
-    color: var(--faint);
-  }
+			footer.doc-foot {
+				margin-top: 3rem;
+				padding-top: 1.8rem;
+				border-top: 1px solid var(--line);
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				gap: 1rem;
+				font-size: 13.5px;
+				color: var(--faint);
+			}
 
-  footer.doc-foot a {
-    color: var(--accent);
-    text-decoration: none;
-  }
+			footer.doc-foot a {
+				color: var(--accent);
+				text-decoration: none;
+			}
 
-  footer.doc-foot a:hover {
-    text-decoration: underline;
-  }
+			footer.doc-foot a:hover {
+				text-decoration: underline;
+			}
 
-  @media (max-width: 520px) {
-    h1 { font-size: 27px; }
-    nav.toc ol { columns: 1; }
-    .wrap { padding: 2.2rem 1.2rem 4rem; }
-    .theme-toggle { position: static; display: inline-block; margin-bottom: 1.5rem; }
-  }
-</style>
-</head>
-<body>
-  <div class="wrap">
-    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">☾ / ☀</button>
+			@media (max-width: 520px) {
+				h1 {
+					font-size: 27px;
+				}
+				nav.toc ol {
+					columns: 1;
+				}
+				.wrap {
+					padding: 2.2rem 1.2rem 4rem;
+				}
+				.theme-toggle {
+					position: static;
+					display: inline-block;
+					margin-bottom: 1.5rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<button
+				class="theme-toggle"
+				id="themeToggle"
+				type="button"
+				aria-label="Toggle color theme">
+				☾ / ☀
+			</button>
 
-    <header class="doc-head">
-      <p class="eyebrow">Udaipur Toloba · privacy policy</p>
-      <h1>How the Udaipur Toloba app handles your information</h1>
-      <p class="subtitle">This app is built for the members of one private community organization — Udaipur Toloba — to track membership dues and payments. This page explains, plainly, what data the app holds and why.</p>
-      <div class="meta-row">
-        <span><b>Effective</b> 14 July 2026</span>
-        <span><b>Applies to</b> Udaipur Toloba iOS &amp; Android app</span>
-        <span><b>Contact</b> qaidjoharytqt@gmail.com</span>
-      </div>
-    </header>
+			<header class="doc-head">
+				<p class="eyebrow">Udaipur Toloba · privacy policy</p>
+				<h1>How the Udaipur Toloba app handles your information</h1>
+				<p class="subtitle">
+					This app helps individuals and organizations track dues,
+					payments, and financial records. This page explains,
+					plainly, what data the app holds and why.
+				</p>
+				<div class="meta-row">
+					<span><b>Effective</b> 20 August 2026</span>
+					<span
+						><b>Applies to</b> Udaipur Toloba iOS &amp; Android
+						app</span
+					>
+					<span><b>Contact</b> qaidjoharytqt@gmail.com</span>
+				</div>
+			</header>
 
-    <nav class="toc" aria-label="Table of contents">
-      <p class="toc-label">On this page</p>
-      <ol>
-        <li><a href="#who"><span class="n">01</span> Who this app is for</a></li>
-        <li><a href="#data"><span class="n">02</span> Information we hold</a></li>
-        <li><a href="#accounts"><span class="n">03</span> How accounts work</a></li>
-        <li><a href="#use"><span class="n">04</span> How we use it</a></li>
-        <li><a href="#processors"><span class="n">05</span> Who else sees it</a></li>
-        <li><a href="#security"><span class="n">06</span> Storage &amp; security</a></li>
-        <li><a href="#retention"><span class="n">07</span> Retention &amp; deletion</a></li>
-        <li><a href="#children"><span class="n">08</span> Age of our members</a></li>
-        <li><a href="#changes"><span class="n">09</span> Changes to this policy</a></li>
-        <li><a href="#contact"><span class="n">10</span> Contact</a></li>
-      </ol>
-    </nav>
+			<nav class="toc" aria-label="Table of contents">
+				<p class="toc-label">On this page</p>
+				<ol>
+					<li>
+						<a href="#who"
+							><span class="n">01</span> Who this app is for</a
+						>
+					</li>
+					<li>
+						<a href="#data"
+							><span class="n">02</span> Information we hold</a
+						>
+					</li>
+					<li>
+						<a href="#accounts"
+							><span class="n">03</span> How accounts work</a
+						>
+					</li>
+					<li>
+						<a href="#use"
+							><span class="n">04</span> How we use it</a
+						>
+					</li>
+					<li>
+						<a href="#processors"
+							><span class="n">05</span> Who else sees it</a
+						>
+					</li>
+					<li>
+						<a href="#security"
+							><span class="n">06</span> Storage &amp; security</a
+						>
+					</li>
+					<li>
+						<a href="#retention"
+							><span class="n">07</span> Retention &amp;
+							deletion</a
+						>
+					</li>
+					<li>
+						<a href="#children"
+							><span class="n">08</span> Age of our members</a
+						>
+					</li>
+					<li>
+						<a href="#changes"
+							><span class="n">09</span> Changes to this policy</a
+						>
+					</li>
+					<li>
+						<a href="#contact"><span class="n">10</span> Contact</a>
+					</li>
+				</ol>
+			</nav>
 
-    <section class="clause" id="who">
-      <div class="clause-head"><span class="clause-num">01</span><h2>Who this app is for</h2></div>
-      <p>The Udaipur Toloba app is an internal tool for managing dues and payments within Udaipur Toloba, a private community organization. It is not a public service — every person on it is a verified member or administrator of this one organization, and the app is not intended for use outside it.</p>
-    </section>
+			<section class="clause" id="who">
+				<div class="clause-head">
+					<span class="clause-num">01</span>
+					<h2>Who this app is for</h2>
+				</div>
+				<p>
+					The Udaipur Toloba app is a financial tracking and dues
+					management platform designed for communities and
+					organizations.
+				</p>
+				<p>
+					It is publicly available and can be used by individuals or
+					groups who wish to manage dues, payments, and financial
+					records in an organized manner.
+				</p>
+				<p>
+					While it is currently used by the Udaipur Toloba community,
+					similar organizations may also use the app for their own
+					operational needs.
+				</p>
+			</section>
 
-    <section class="clause" id="data">
-      <div class="clause-head"><span class="clause-num">02</span><h2>Information we hold</h2></div>
-      <p class="lead">Because this app tracks membership and financial records, it holds the following about each member:</p>
-      <div class="card-row">
-        <div class="data-card">
-          <p class="label">Identity</p>
-          <p class="desc">Full name, ITS membership ID, mohallah / area, and designation within the organization.</p>
-        </div>
-        <div class="data-card">
-          <p class="label">Contact</p>
-          <p class="desc">Phone number, used for member identification and contact by administrators.</p>
-        </div>
-        <div class="data-card">
-          <p class="label">Photo</p>
-          <p class="desc">A profile photograph, used for member identification within the app.</p>
-        </div>
-        <div class="data-card">
-          <p class="label">Financial records</p>
-          <p class="desc">Dues assigned, payments recorded, and transaction history tied to your membership.</p>
-        </div>
-        <div class="data-card">
-          <p class="label">Device token</p>
-          <p class="desc">A push-notification token, used only to deliver in-app alerts about your dues and payments.</p>
-        </div>
-      </div>
-      <p>We do not collect location data, contacts, browsing history, or any information unrelated to membership and dues tracking. The app has no advertising, no analytics tracking, and no third-party marketing integrations.</p>
-    </section>
+			<section class="clause" id="data">
+				<div class="clause-head">
+					<span class="clause-num">02</span>
+					<h2>Information we hold</h2>
+				</div>
+				<p class="lead">
+					Because this app tracks membership and financial records, it
+					holds the following about each member:
+				</p>
+				<div class="card-row">
+					<div class="data-card">
+						<p class="label">Identity</p>
+						<p class="desc">
+							Full name, ITS membership ID, mohallah / area, and
+							designation within the organization.
+						</p>
+					</div>
+					<div class="data-card">
+						<p class="label">Contact</p>
+						<p class="desc">
+							Phone number, used for member identification and
+							contact by administrators.
+						</p>
+					</div>
+					<div class="data-card">
+						<p class="label">Photo</p>
+						<p class="desc">
+							A profile photograph, used for member identification
+							within the app.
+						</p>
+					</div>
+					<div class="data-card">
+						<p class="label">Financial records</p>
+						<p class="desc">
+							Dues assigned, payments recorded, and transaction
+							history tied to your membership.
+						</p>
+					</div>
+					<div class="data-card">
+						<p class="label">Device token</p>
+						<p class="desc">
+							A push-notification token, used only to deliver
+							in-app alerts about your dues and payments.
+						</p>
+					</div>
+				</div>
+				<p>
+					We do not collect location data, contacts, browsing history,
+					or any information unrelated to membership and dues
+					tracking. The app has no advertising, no analytics tracking,
+					and no third-party marketing integrations.
+				</p>
+			</section>
 
-    <section class="clause" id="accounts">
-      <div class="clause-head"><span class="clause-num">03</span><h2>How accounts work</h2></div>
-      <p>There is no public sign-up. Every account is created by an organization administrator, and login credentials are handed to members directly, outside the app. If you did not receive credentials from an administrator, you cannot obtain an account.</p>
-    </section>
+			<section class="clause" id="accounts">
+				<div class="clause-head">
+					<span class="clause-num">03</span>
+					<h2>How accounts work</h2>
+				</div>
+				<p>
+					Users may request access to the app by submitting their
+					details through the available onboarding process.
+				</p>
+				<p>
+					For organization-based usage, account access may be reviewed
+					and approved by administrators to ensure proper verification
+					and role assignment.
+				</p>
+				<p>
+					This approach helps maintain data accuracy and ensures that
+					financial records are managed securely.
+				</p>
+			</section>
 
-    <section class="clause" id="use">
-      <div class="clause-head"><span class="clause-num">04</span><h2>How we use it</h2></div>
-      <ul>
-        <li><b>Tracking dues.</b> Your name, ID, and financial records are used to calculate what you owe and what you've paid.</li>
-        <li><b>Recording payments.</b> When an administrator or treasurer logs a payment, it's attached to your record.</li>
-        <li><b>Notifying you.</b> Push notifications tell you when a payment is received or needs approval — nothing promotional.</li>
-        <li><b>Reporting.</b> Aggregated, area-wise summaries help administrators understand collection status. These reports are only visible to authorized administrators, secretaries, treasurers, and area in-charges.</li>
-      </ul>
-    </section>
+			<section class="clause" id="use">
+				<div class="clause-head">
+					<span class="clause-num">04</span>
+					<h2>How we use it</h2>
+				</div>
+				<ul>
+					<li>
+						<b>Tracking dues.</b> Your name, ID, and financial
+						records are used to calculate what you owe and what
+						you've paid.
+					</li>
+					<li>
+						<b>Recording payments.</b> When an administrator or
+						treasurer logs a payment, it's attached to your record.
+					</li>
+					<li>
+						<b>Notifying you.</b> Push notifications tell you when a
+						payment is received or needs approval — nothing
+						promotional.
+					</li>
+					<li>
+						<b>Reporting.</b> Aggregated, area-wise summaries help
+						administrators understand collection status. These
+						reports are only visible to authorized administrators,
+						secretaries, treasurers, and area in-charges.
+					</li>
+				</ul>
+			</section>
 
-    <section class="clause" id="processors">
-      <div class="clause-head"><span class="clause-num">05</span><h2>Who else sees it</h2></div>
-      <p class="lead">We don't sell or share your data with advertisers. A small number of infrastructure providers process it on our behalf, strictly to run the app:</p>
-      <div class="table-scroll">
-        <table class="processors">
-          <thead>
-            <tr><th>Provider</th><th>Purpose</th></tr>
-          </thead>
-          <tbody>
-            <tr><td class="who">Supabase</td><td>Hosts the database and stores profile photos securely.</td></tr>
-            <tr><td class="who">Apple / Google push services</td><td>Deliver push notifications to your device via your device token.</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p>None of these providers are permitted to use your data for their own purposes.</p>
-    </section>
+			<section class="clause" id="processors">
+				<div class="clause-head">
+					<span class="clause-num">05</span>
+					<h2>Who else sees it</h2>
+				</div>
+				<p class="lead">
+					We don't sell or share your data with advertisers. A small
+					number of infrastructure providers process it on our behalf,
+					strictly to run the app:
+				</p>
+				<div class="table-scroll">
+					<table class="processors">
+						<thead>
+							<tr>
+								<th>Provider</th>
+								<th>Purpose</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="who">Supabase</td>
+								<td>
+									Hosts the database and stores profile photos
+									securely.
+								</td>
+							</tr>
+							<tr>
+								<td class="who">
+									Apple / Google push services
+								</td>
+								<td>
+									Deliver push notifications to your device
+									via your device token.
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p>
+					None of these providers are permitted to use your data for
+					their own purposes.
+				</p>
+			</section>
 
-    <section class="clause" id="security">
-      <div class="clause-head"><span class="clause-num">06</span><h2>Storage &amp; security</h2></div>
-      <p>All traffic between the app and our servers is encrypted (HTTPS/TLS). Access to member and financial data is restricted to signed-in administrators and staff roles, enforced on every request. Photos are stored in a private bucket and only ever served through time-limited, signed links.</p>
-    </section>
+			<section class="clause" id="security">
+				<div class="clause-head">
+					<span class="clause-num">06</span>
+					<h2>Storage &amp; security</h2>
+				</div>
+				<p>
+					All traffic between the app and our servers is encrypted
+					(HTTPS/TLS). Access to member and financial data is
+					restricted to signed-in administrators and staff roles,
+					enforced on every request. Photos are stored in a private
+					bucket and only ever served through time-limited, signed
+					links.
+				</p>
+			</section>
 
-    <section class="clause" id="retention">
-      <div class="clause-head"><span class="clause-num">07</span><h2>Retention &amp; deletion</h2></div>
-      <p>Your record is kept for as long as you remain a member, since it forms part of the organization's financial history. If you'd like your account deactivated or your data deleted, contact your organization administrator directly — they can deactivate your access immediately or permanently remove your record on request.</p>
-      <div class="callout">There's no self-service delete button in the app by design: these are official financial records, and their removal needs administrative sign-off, the same way you couldn't delete your own record from a company payroll system.</div>
-    </section>
+			<section class="clause" id="retention">
+				<div class="clause-head">
+					<span class="clause-num">07</span>
+					<h2>Retention &amp; deletion</h2>
+				</div>
+				<p>
+					User data is retained for as long as it is required to
+					maintain accurate financial and organizational records.
+				</p>
+				<p>
+					Users may request deletion of their account and associated
+					data through the app or by contacting the organization
+					admin.
+				</p>
+				<p>
+					Once a deletion request is processed, the associated data is
+					permanently removed, subject to any operational or
+					record-keeping requirements.
+				</p>
+			</section>
 
-    <section class="clause" id="children">
-      <div class="clause-head"><span class="clause-num">08</span><h2>Age of our members</h2></div>
-      <p>Membership in Udaipur Toloba isn't restricted by age, so the app's members can include minors as well as adults. This doesn't change how accounts work: every account, regardless of the member's age, is created and managed by an organization administrator — nobody, including a minor, can self-register (see "How accounts work" above). A parent or guardian with questions about a minor member's data, or a request to have it removed, can reach the organization administrator the same way any member would.</p>
-    </section>
+			<section class="clause" id="children">
+				<div class="clause-head">
+					<span class="clause-num">08</span>
+					<h2>Age of our members</h2>
+				</div>
+				<p>
+					Membership in Udaipur Toloba isn't restricted by age, so the
+					app's users can include minors as well as adults. Account
+					access for minors may be reviewed through the same
+					onboarding and administrator verification process described
+					above. A parent or guardian with questions about a minor
+					user's data, or a request to have it removed, can contact
+					the organization administrator.
+				</p>
+			</section>
 
-    <section class="clause" id="changes">
-      <div class="clause-head"><span class="clause-num">09</span><h2>Changes to this policy</h2></div>
-      <p>If this policy changes, the effective date at the top of this page will be updated. Continued use of the app after a change means you accept the updated policy.</p>
-    </section>
+			<section class="clause" id="changes">
+				<div class="clause-head">
+					<span class="clause-num">09</span>
+					<h2>Changes to this policy</h2>
+				</div>
+				<p>
+					If this policy changes, the effective date at the top of
+					this page will be updated. Continued use of the app after a
+					change means you accept the updated policy.
+				</p>
+			</section>
 
-    <section class="clause" id="contact">
-      <div class="clause-head"><span class="clause-num">10</span><h2>Contact</h2></div>
-      <p>Questions about this policy or your data can be sent to <a href="mailto:qaidjoharytqt@gmail.com" style="color:var(--accent);">qaidjoharytqt@gmail.com</a>.</p>
-    </section>
+			<section class="clause" id="contact">
+				<div class="clause-head">
+					<span class="clause-num">10</span>
+					<h2>Contact</h2>
+				</div>
+				<p>
+					Questions about this policy or your data can be sent to
+					<a
+						href="mailto:qaidjoharytqt@gmail.com"
+						style="color: var(--accent)"
+						>qaidjoharytqt@gmail.com</a
+					>.
+				</p>
+			</section>
 
-    <footer class="doc-foot">
-      <span>Udaipur Toloba — internal membership &amp; dues app</span>
-      <a href="mailto:qaidjoharytqt@gmail.com">qaidjoharytqt@gmail.com</a>
-    </footer>
-  </div>
+			<footer class="doc-foot">
+				<span>Udaipur Toloba — membership &amp; dues app</span>
+				<a href="mailto:qaidjoharytqt@gmail.com"
+					>qaidjoharytqt@gmail.com</a
+				>
+			</footer>
+		</div>
 
-  <script>
-    (function () {
-      var root = document.documentElement;
-      var toggle = document.getElementById('themeToggle');
-      var stored = localStorage.getItem('theme');
-      if (stored) root.setAttribute('data-theme', stored);
-      toggle.addEventListener('click', function () {
-        var current = root.getAttribute('data-theme');
-        var isDark = current === 'dark' || (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
-        var next = isDark ? 'light' : 'dark';
-        root.setAttribute('data-theme', next);
-        localStorage.setItem('theme', next);
-      });
-    })();
-  </script>
-</body>
+		<script>
+			(function () {
+				var root = document.documentElement;
+				var toggle = document.getElementById("themeToggle");
+				var stored = localStorage.getItem("theme");
+				if (stored) root.setAttribute("data-theme", stored);
+				toggle.addEventListener("click", function () {
+					var current = root.getAttribute("data-theme");
+					var isDark =
+						current === "dark" ||
+						(!current &&
+							window.matchMedia("(prefers-color-scheme: dark)")
+								.matches);
+					var next = isDark ? "light" : "dark";
+					root.setAttribute("data-theme", next);
+					localStorage.setItem("theme", next);
+				});
+			})();
+		</script>
+	</body>
 </html>
